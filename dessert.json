@@ -1,0 +1,22 @@
+{
+    "items":[
+        {
+            "name" : "Choco Lava Cake",
+            "description" : "Chocolate lovers delight! Indulgent, gooey molten lava inside chocolate cake",
+            "img_path" : "sides/Choco_Lava.webp",
+            "price" : 99
+        },
+        {
+            "name" : "Butterscotch Mousse Cake",
+            "description" : "Sweet temptation! Butterscotch flavored mousse",
+            "img_path" : "sides/Butterscotch.webp",
+            "price" : 99
+        },
+        {
+            "name" : "Brownie Fantasy",
+            "description" : "Sweet Temptation! Hot Chocolate Brownie drizzled with chocolate fudge sauce",
+            "img_path" : "sides/Brownie_Fantasy.webp",
+            "price" : 59
+        }
+    ]
+}

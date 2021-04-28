@@ -1,0 +1,41 @@
+{
+    "items":[
+        {
+            "name" : "Mountain Dew Ice (500ml)",
+            "description" : "Refreshing lemony drink",
+            "img_path" : "beverages/BEV0151.jpg",
+            "price" : 60
+        },
+        {
+            "name" : "Pepsi (500ml)",
+            "description" : "Sparkling and Refreshing Beverage",
+            "img_path" : "beverages/pepsi_new_20190312.webp",
+            "price" : 60
+        },
+        {
+            "name" : "7Up (500ml)",
+            "description" : "Refreshing clear drink with a natural lemon flavor",
+            "img_path" : "beverages/7up_new_2202.webp",
+            "price" : 60
+        },
+        {
+            "name" : "Mirinda (500ml)",
+            "description" : "Delicious Orange Flavoured beverage",
+            "img_path" : "beverages/mirinda.webp",
+            "price" : 60
+        },
+        {
+            "name" : "Pepsi Black Can",
+            "description" : "Maximum Taste Zero Calories",
+            "img_path" : "beverages/pepsi_black.webp",
+            "price" : 60
+        },
+        {
+            "name" : "Slice (350ml)",
+            "description" : "Great Mango Taste",
+            "img_path" : "beverages/Slice_Digital_Banner_696X270-2.jpg",
+            "price" : 70
+        }
+    
+    ]
+}

@@ -1,0 +1,77 @@
+{
+    "items":[
+        {
+            "name" : "Margherita",
+            "description" : "Classic delight with 100% mozzarella cheese",
+            "img_path" : "veg-pizza/new_margherita_2502.webp",
+            "price" : 199
+            
+        },
+        {
+            "name" : "Double Cheese Margherita",
+            "description" : "A classic delight loaded with extra 100% real mozzarella cheese",
+            "img_path" : "veg-pizza/double_cheese_margherita_2502.webp",
+            "price" : 335
+        },
+        {
+            "name" : "Farmhouse",
+            "description" : "Delightful combination of onion, capsicum, tomato & grilled mushroom",
+            "img_path" : "veg-pizza/farmhouse.webp",
+            "price" : 395
+        },
+        {
+            "name" : "Peppy Paneer",
+            "description" : "Flavorful trio of juicy paneer, crisp capsicum with spicy red paprika",
+            "img_path" : "veg-pizza/new_peppy_paneer.webp",
+            "price" : 395
+        },
+        {
+            "name" : "Mexican Green Wave",
+            "description" : "Mexican herbs sprinkled on onion, capsicum, tomato & jalapeno",
+            "img_path" : "veg-pizza/new_mexican_green_wave.webp",
+            "price" : 395
+        },
+        {
+            "name" : "Fresh Veggie",
+            "description" : "Delectable combination of onion & capsicum, a veggie lovers pick",
+            "img_path" : "veg-pizza/new_fresh_veggie.webp",
+            "price" : 335
+        },
+        {
+            "name" : "Deluxe Veggie",
+            "description" : "Veg delight - onion, capsicum, grilled mushroom, corn & paneer",
+            "img_path" : "veg-pizza/new_deluxe_veggie.webp",
+            "price" : 450
+        },
+        {
+            "name" : "Cheese N Corn",
+            "description" : "A delectable combination of sweet & juicy golden corn",
+            "img_path" : "veg-pizza/new_cheese_n_corn.webp",
+            "price" : 305
+        },
+        {
+            "name" : "Veg Extravaganza",
+            "description" : "Black olives, capsicum, onion, grilled mushroom, corn, tomato, jalapeno & extra cheese",
+            "img_path" : "veg-pizza/new_veg_extravaganza.webp",
+            "price" : 450
+        },
+        {
+            "name" : "Veggie Paradise",
+            "description" : "The awesome foursome! Golden corn, black olives, capsicum, red paprika",
+            "img_path" : "veg-pizza/new_veggie_paradise.webp",
+            "price" : 395
+        },
+        {
+            "name" : "Kadhai Paneer",
+            "description" : "Paneer chunks in your favourite spicy kadhai masala flavors, with toppings of onion & capsicum",
+            "img_path" : "veg-pizza/updated_kadhai_paneer.webp",
+            "price" : 450
+        },
+        {
+            "name" : "Paneer Makhani",
+            "description" : "Flavorful twist of spicy makhani sauce topped with paneer & capsicum",
+            "img_path" : "veg-pizza/updated_paneer_makhani.webp",
+            "price" : 450
+        }
+    ]
+}
