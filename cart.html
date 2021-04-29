@@ -6,17 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Chitkarian Pizza</title>
+    <title>Document</title>
 </head>
 
 <body>
-    <!-- nav bar with logo -->
     <nav class="navbar">
         <div class="nav-container">
             <ul>
                 <li class="logo-container">
-                    <a><img id="logo" src="logo.png" /></a>
-                    <p>Pizza Place</p>
+                    <a href="index.html"><img id="logo" src="logo.png" /></a>
+                    <p><a href="index.html">Pizza Place</a></p>
                 </li>
             </ul>
             <ul class="info-container">
@@ -35,48 +34,40 @@
                 </li>
                 <li>
                     <div>
-                        <input id="address" type="text">
+                        <input  type="text">
                     </div>
                 </li>
             </ul>
         </div>
     </nav>
-    <!-- nav bar for menu -->
-    <nav class="menu-navbar">
-        <ul>
-            <li>
-                <a onclick="getPizza('veg-pizza')">Veg Pizza</a>
+    <main class="main-container ">
+        <div id="address-list">
 
-            </li>
-            <li>
-                <a onclick="getPizza('non-veg-pizza')">Non-Veg Pizza</a>
-            </li>
-            <li>
-                <a onclick="getPizza('sides')">Sides</a>
-            </li>
-            <li>
-                <a onclick="getPizza('beverages')">Beverages</a>
-            </li>
-            <li>
-                <a onclick="getPizza('dessert')">Dessert</a>
-            </li>
-        </ul>
-    </nav>
-    <!-- main container for pizza cards -->
-    <main class="main-container">
-        
-        <section id="pizza-container" class="pizza-card-container">
-
-        </section>
+        </div>
 
         <aside id="cart">
 
         </aside>
-        
+        <aside id="address-details" class="address-box">
+            <button class="close-btn" onclick="hideAddressBox()">X</button>
+            <span>Save delivery address</span>
+            <div class="address-input-container">
+                
+                    <input type="text" placeholder="Address" description="Address">
+                
+                
+                    <input type="text" placeholder="Flat/Door No." description="Flat/Door No.">
+                
+                    <input type="text" placeholder="City" description="City">
+                
+                    <input type="text" placeholder="State" description="State">
+                
+            </div>
+            <button class="address-submit-btn" onclick="addAddress()">Save address & proceed</button>
+        </aside>
     </main>
     <script src="main.js"></script>
-    <script src="script.js"></script>
-    
+    <script src="cart.js"></script>
 </body>
 
 </html>
