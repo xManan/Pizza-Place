@@ -45,7 +45,7 @@ function addAddress(){
   inputFields.forEach(ele=>{
     if(ele.value.length == 0){
       flag=false;
-      ele.placeholder += " cannot be empty";
+      ele.placeholder = ele.getAttribute("description") + " cannot be empty";
       ele.classList.add("empty-address");
     }
   });
