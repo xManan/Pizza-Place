@@ -123,7 +123,7 @@ function getSize(x) {
     cart.innerHTML += `<div class="checkout">
       <p>Subtotal</p>
       <p>&#8377; ${totalPrice}</p>
-      <a href="cart.html">${string!=undefined ? string : "Checkout"}</a>
+      <a href="cart.html" id="${string!=undefined ? "pay-btn" : ""}">${string!=undefined ? string : "Checkout"}</a>
     </div>`;
     //console.log(cart);
   }
@@ -285,7 +285,8 @@ function getSize(x) {
     if (btn != null) {
       btn.children[1].innerText = temp.orders[i].tQuantity;
     }
-    displayCart();
+    let payBtn = document.querySelector("#pay-btn");
+    displayCart(payBtn!=undefined ? payBtn.innerText : undefined);
   }
   
   // remove btn in cart section
@@ -321,7 +322,8 @@ function getSize(x) {
       }
     }
     setOrders(temp);
-    displayCart();
+    let payBtn = document.querySelector("#pay-btn");
+    displayCart(payBtn!=undefined ? payBtn.innerText : undefined);
     if (cartBtn != null) {
       cartBtn.children[1].innerText = tQ;
     }
