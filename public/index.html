@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/style.css">
+    <title>Chitkarian Pizza</title>
+</head>
+
+<body>
+    <!-- nav bar with logo -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <ul>
+                <li class="logo-container">
+                    <a><img id="logo" src="static/logo.png" /></a>
+                    <p>Pizza Place</p>
+                </li>
+            </ul>
+            <ul class="info-container">
+
+                <li>
+                    <div>
+                        <input id="delivery" type="radio" name="method" checked>
+                        <label for="delivery">Delivery</label>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <input id="pick-up" type="radio" name="method">
+                        <label for="pick-up">Pick Up</label>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <input id="address" type="text">
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- nav bar for menu -->
+    <nav class="menu-navbar">
+        <ul>
+            <li>
+                <a onclick="getPizza('veg-pizza')" data-link>Veg Pizza</a>
+
+            </li>
+            <li>
+                <a onclick="getPizza('non-veg-pizza')" data-link>Non-Veg Pizza</a>
+            </li>
+            <li>
+                <a onclick="getPizza('sides')" data-link>Sides</a>
+            </li>
+            <li>
+                <a onclick="getPizza('beverages')" data-link>Beverages</a>
+            </li>
+            <li>
+                <a onclick="getPizza('dessert')" data-link>Dessert</a>
+            </li>
+        </ul>
+    </nav>
+    <!-- main container for pizza cards -->
+    <main class="main-container">
+        
+        <section id="pizza-container" class="pizza-card-container">
+
+        </section>
+
+        <aside id="cart">
+
+        </aside>
+        
+    </main>
+    <script src="static/main.js"></script>
+    <script src="static/script.js"></script>
+    
+</body>
+
+</html>

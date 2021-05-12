@@ -1,0 +1,58 @@
+{
+    "items":[
+        {
+            "name" : "Garlic Breadsticks",
+            "description" : "Baked to perfection. Your perfect pizza partner! Tastes best with dip",
+            "img_path" : "static/sides/Garlic_bread.webp",
+            "price" : 99
+        },
+        {
+            "name" : "Classic Stuffed Garlic Bread",
+            "description" : "Freshly baked garlic bread with cheese, juicy corn & tangy jalapeno",
+            "img_path" : "static/sides/Stuffed_garlic_Bread.webp",
+            "price" : 145
+        },
+        {
+            "name" : "Taco Mexicana Veg",
+            "description" : "Truly irresistible! Crispy taco with veg patty & creamy harissa sauce",
+            "img_path" : "static/sides/Taco_Veg.webp",
+            "price" : 118
+        },
+        {
+            "name" : "Veg Parcel",
+            "description" : "Snacky bites! Pizza rolls with paneer & creamy harissa sauce",
+            "img_path" : "static/sides/Parcel_Veg.webp",
+            "price" : 39
+        },
+        {
+            "name" : "Potato Cheese Shots",
+            "description" : "Crisp and golden outside, flavorful burst of cheese, potato & spice inside",
+            "img_path" : "static/sides/potato_cheese_shots.webp",
+            "price" : 59
+        },
+        {
+            "name" : "Crinkle Fries",
+            "description" : "Crispy wavy masala coated fries served with a spicy tomato chilli sauce",
+            "img_path" : "static/sides/Crinkle_Fries.webp",
+            "price" : 59
+        },
+        {
+            "name" : "Creamy Tomato Pasta Veg",
+            "description" : "Instant Fusilli Pasta, Creamy Culinary Dressing, Onion, Olive, Green Capsicum, Parsley sprinkle",
+            "img_path" : "static/sides/CreamyTomatoVeg_N.jpg",
+            "price" : 129
+        },
+        {
+            "name" : "Cheesy Jalapeno Pasta Veg",
+            "description" : "Instant Fusilli Pasta, Cheesy Jalapeno Sauce, Onion, Jalapeno, Parsley sprinkle",
+            "img_path" : "static/sides/JalapenoVeg_N.jpg",
+            "price" : 129
+        },
+        {
+            "name" : "Tikka Masala Pasta Veg",
+            "description" : "Instant Fusilli Pasta, Spicy Red dressing, Onion, Paneer Tikka, Parsley sprinkle",
+            "img_path" : "static/sides/PaneerTikkaMasala_N.jpg",
+            "price" : 129
+        }
+    ]
+}

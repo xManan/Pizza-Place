@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <ul>
+                <li class="logo-container">
+                    <a href="index.html"><img id="logo" src="static/logo.png" /></a>
+                    <p><a href="index.html">Pizza Place</a></p>
+                </li>
+            </ul>
+            <ul class="info-container">
+
+                <li>
+                    <div>
+                        <input id="delivery" type="radio" name="method" checked>
+                        <label for="delivery">Delivery</label>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <input id="pick-up" type="radio" name="method">
+                        <label for="pick-up">Pick Up</label>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <input  type="text">
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <main class="main-container ">
+        <div id="address-list">
+
+        </div>
+
+        <aside id="cart">
+
+        </aside>
+        <aside id="address-details" class="address-box">
+            <button class="close-btn" onclick="hideAddressBox()">X</button>
+            <span>Save delivery address</span>
+            <div class="address-input-container">
+                
+                    <input type="text" placeholder="Address" description="Address">
+                
+                
+                    <input type="text" placeholder="Flat/Door No." description="Flat/Door No.">
+                
+                    <input type="text" placeholder="City" description="City">
+                
+                    <input type="text" placeholder="State" description="State">
+                
+            </div>
+            <button class="address-submit-btn" onclick="addAddress()">Save address & proceed</button>
+        </aside>
+    </main>
+    <script src="static/main.js"></script>
+    <script src="static/cart.js"></script>
+</body>
+
+</html>
