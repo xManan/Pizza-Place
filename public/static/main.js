@@ -180,7 +180,7 @@ function getSize(x) {
     ele.setAttribute("order", "true");
     ele.removeAttribute("onclick");
     ele.innerHTML = `<button onclick="subQ(this)">-</button>
-                       <span>${order.tQuantity}</span>
+                       <span>${order["tQuantity"]}</span>
                      <button onclick="addQ(this)">+</button>`;
     ele.classList.add("quantity");
     //updating local storage
